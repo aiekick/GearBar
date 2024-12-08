@@ -3,21 +3,26 @@
   "displayName": "GearBar",
   "description": "a custom toolbar for modify settings",
   "version": "0.0.1",
+  "publisher": "aiekick",
   "engines": {
-    "vscode": "^1.95.0"
+    "vscode": "^1.25.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+      "color": "#008080",
+      "theme": "dark"
+  },
+  "activationEvents": [
+      "*"
+  ],
+  "repository": {
+      "url": "https://github.com/aiekick/GearBar.git"
+  },
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "gearbar.helloWorld",
-        "title": "Hello World"
-      }
-    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
@@ -28,7 +33,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.95.0",
+    "@types/vscode": "^1.88.0",
     "@types/mocha": "^10.0.9",
     "@types/node": "20.x",
     "@typescript-eslint/eslint-plugin": "^8.10.0",
