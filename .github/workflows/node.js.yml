@@ -17,10 +17,9 @@ jobs:
     - run: npm ci
     - name: install vsce
       run: npm install -g @vscode/vsce
-    - name: build
-      run: npm vsce package
-    - name: upload artifact
+    - name: build vsix
+      run: npm run vscode:prepublish
+    - name: upload vsix
       uses: actions/upload-artifact@v4
       with:
-        name: gearbar vsix
         path: gearbar*.vsix
