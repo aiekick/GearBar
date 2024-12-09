@@ -1,8 +1,8 @@
 {
   "name": "gearbar",
   "displayName": "GearBar",
-  "description": "a custom toolbar for modify settings",
-  "version": "0.0.1",
+  "description": "A statusbar button for modify settings",
+  "version": "0.0.2",
   "publisher": "aiekick",
   "engines": {
     "vscode": "^1.88.0"
