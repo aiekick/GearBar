@@ -18,9 +18,7 @@ jobs:
     - name: install vsce
       run: npm install -g @vscode/vsce
     - name: build vsix
-      run: npm run vscode:prepublish
-    - name: list dir
-      run: ls -lRt
+      run: vsce package
     - name: upload vsix
       uses: actions/upload-artifact@v4
       with:
