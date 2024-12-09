@@ -1,4 +1,4 @@
-# GearBar README
+# GearBar
 
 this extention give a gear button in the status bar for enable/disable vscode settings
 
