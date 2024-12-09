@@ -16,7 +16,7 @@
       "theme": "dark"
   },
   "activationEvents": [
-      "*"
+      "onStartupFinished"
   ],
   "repository": {
       "url": "https://github.com/aiekick/GearBar.git"
