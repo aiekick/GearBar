@@ -22,5 +22,5 @@ jobs:
     - name: upload vsix
       uses: actions/upload-artifact@v4
       with:
-        name: gearbar.zip
+        name: gearbar-artifact
         path: ./gearbar*.vsix
