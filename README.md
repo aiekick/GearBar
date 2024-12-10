@@ -1,3 +1,5 @@
+[![Generate vsix](https://github.com/aiekick/GearBar/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/aiekick/GearBar/actions/workflows/node.js.yml)
+
 # GearBar
 
 this extention give a gear button in the status bar for enable/disable vscode settings
