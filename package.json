@@ -16,7 +16,7 @@
       "theme": "dark"
   },
   "activationEvents": [
-      "onStartupFinished"
+      "*"
   ],
   "repository": {
       "url": "https://github.com/aiekick/GearBar.git"
@@ -30,7 +30,8 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "vscode-test",
+	"vsix": "vsce package"
   },
   "devDependencies": {
     "@types/vscode": "^1.88.0",
